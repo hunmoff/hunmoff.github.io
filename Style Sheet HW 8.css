@@ -1,5 +1,6 @@
 ﻿body {
     background-color:crimson;
+    font-family:'Courier New';
 }
 
 h1 {
@@ -22,4 +23,62 @@ li a {
     display: block;
     color: white;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+}
+
+li a:hover {
+    background-color: darkblue;
+}
+
+#HomePage {
+    margin-bottom: 75px;
+    padding-top: 100px;
+}
+
+#AboutPage {
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+
+#ProjectsPage {
+    margin-bottom: 300px;
+    padding-top: 100px;
+}
+
+#SkillSetsPage {
+    margin-bottom: 600px;
+    padding-top: 100px;
+}
+
+p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h3 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+ul {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#LinkedInImage {
+    margin-left: 10%;
+    height: 200 px;
+    width: 200px;
+}
+
+#Pages {
+    list-style-type: none;
+    position: fixed;
+    top: 50px;
+    width: 24%;
+    background-color: darkblue;
 }
